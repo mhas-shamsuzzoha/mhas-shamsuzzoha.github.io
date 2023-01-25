@@ -1,0 +1,109 @@
+@import "https://unpkg.com/open-props";
+
+body {
+    margin: 0;
+    background-color: var(--gray-9);
+    color: var(--gray-2);
+    font-size: 16pt;
+    font-family: var(--font-sans)
+}
+
+.intro {
+    font-weight: var(--font-weight-8);  
+    background: var(--gray-10);
+    padding-block: var(--size-9);
+    top: 0;
+    box-shadow: var(--shadow-3  );
+}
+
+/* width: min(100% - 2rem, 50rem);
+margin-inline: auto; */
+
+.container {
+    margin-left: 3rem
+}
+
+.question {
+    font-size: 24pt;
+    margin-left: 2rem;
+}
+
+.morning {
+    background: var(--gradient-4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42pt;
+    transition: ease-in-out .25s;
+}
+
+.morning:hover {
+    background: var(--gradient-12);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42pt;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4rem;
+    margin-top: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10rem;
+    font-weight: var(--font-weight-6);
+}
+
+.button {
+    color: var(--gray-2);
+    font-size: 18pt;
+    text-decoration: none;
+    border: 4px solid;
+    border-color: #00E7C9;
+    /* width: 30rem;
+    height: 6rem; */
+    padding: 5rem 7.5rem 5rem 7.5rem;
+    border-radius: 16px;
+    text-align: center;
+    transition: ease-in-out .25s;   
+}
+
+.button:hover {
+    background: #00E7C9;
+    transition: ease-in-out .25s;   
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+    transition: ease .25s;
+    color: var(--gray-6);
+}
+
+.about:hover {
+    color: var(--gray-2)
+}
+
+
+/* display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+line-height: 20px;
+font-weight: 600;
+border-radius: 8px;
+padding: 14px 24px;
+border: none;
+transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+color: #fff; */
